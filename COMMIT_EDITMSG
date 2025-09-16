@@ -1,0 +1,8 @@
+Add support for query parameters in API requests
+
+Update `getQueryFn` in `client/src/lib/queryClient.ts` to correctly construct URLs with query parameters, resolving an issue where parameters were not being passed to API requests.
+
+Replit-Commit-Author: Agent
+Replit-Commit-Session-Id: b4951663-01fc-4b72-85f6-6a46f9923f4a
+Replit-Commit-Checkpoint-Type: full_checkpoint
+Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6ecc9228-b3e9-46a0-8a24-48f513e1b4a5/b4951663-01fc-4b72-85f6-6a46f9923f4a/0xWw8Kq
